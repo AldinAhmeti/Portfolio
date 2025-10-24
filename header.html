@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Header.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="Aldin.jsx">
+</head>
+<body>
+  <section class="hero">
+    <h1 class="intro"><span style="color: grey; font-weight: 200;">I'm a designer specialising in</span> UI/UX <span style="color: grey; font-weight: 200;">and</span> <br> Interaction Design </h1>
+     <div class="arrow" onclick="scrollDown()"></div>
+  </section>
+  <section class="project-block">
+    <section class="selected_works"><h3><span style="color:
+  grey; font-weight: 200; font-size: 25px; position: relative; left: 50px; bottom: 50px;">Selected</span> <span style="color:
+  white; font-weight: 400; font-size: 25px; position: relative; left: 50px; bottom: 50px;">Works</span></h3>
+  </section>
+  <div class="project-inner">
+    <!-- IMAGE CARD (left) -->
+    <a  href="https://www.figma.com/proto/MYL8kyJz7hyJdYVnowQsBK/Postify?node-id=75-1833"  target="_blank"
+  class="project-card" href="#" aria-label="View Project">
+      <!-- replace src with your image OR delete the <img> and set background-image in CSS -->
+      <img src="Pictures/Social Media and E-Commerce.png" alt="">
+      <div class="project-overlay">
+        <span>View Project</span>
+      </div>
+    </a>
+
+    <!-- TEXT (right) -->
+    <div class="project-text">
+      <p class="eyebrow">SOCIAL MEDIA NETWORKING</p>
+      <h3>
+        Here I designed a website in which you were able to use it as
+        <strong>Social Media and E-Commerce</strong>
+      </h3>
+      <p class="meta">Website Design</p>
+    </div>
+  </div>
+</section>
+<section class="project-block flipped">
+  <div class="project-inner">
+    <!-- TEXT (left side this time) -->
+    <div class="project-text">
+      <p class="eyebrow">CUSTOMER SERVICE</p>
+      <h3>
+        <span style="font-size: 16px;">As a freelancer, I redesigned a website to enhance its look and usability.
+        Working closely with the client, I modernized the layout, selected new colors
+        and fonts, and improved navigation.</span> <br><br>
+        <strong>
+         <span style="font-size: 20px;"> The result? A visually appealing site that's easier to use and better represents
+          the client's brand.</span>
+        </strong>
+      </h3>
+    </div>
+
+    <!-- IMAGE CARD (right side) -->
+    <a 
+      href="https://www.figma.com/proto/qmqPrC9JHZwCIBO0pdA291/SONNECTO?node-id=12-3&p=f&t=7s89qQaUYA7NtCg6-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      class="project-card"
+    >
+      <img src="Pictures/new.png" alt="Project preview">
+      <div class="project-overlay">
+        <span>View Project</span>
+      </div>
+    </a>
+  </div>
+</section>
+
+<section class="project-block">
+  <div class="project-inner">
+    <!-- IMAGE CARD (left side) -->
+    <a 
+      href="https://www.figma.com/proto/rfdttDGgW4Ef7TvO3Pq4ID/Real-Estate-Design?node-id=83-40&p=f&t=JOvPjpATcOOGB0XJ-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      class="project-card"
+    >
+      <img src="Pictures/Real-Estate Design.png" alt="Real Estate Design preview">
+      <div class="project-overlay">
+        <span>View Project</span>
+      </div>
+    </a>
+
+    <!-- TEXT (right side) -->
+    <div class="project-text">
+      <p class="eyebrow">REAL ESTATE DESIGN</p>
+      <h3>
+       <span style="font-size: 16px;"> Designed a user-centric UI/UX for a real estate website, focusing on intuitive navigation,
+        clear property displays, and an engaging, seamless user experience to enhance usability and
+        drive interaction.</span> <br><br>
+        <strong>
+          <span style="font-size: 20px;">The result? A sleek, intuitive design that enhances property browsing and showcases the
+          real estate brand.</span>
+        </strong>
+      </h3>
+    </div>
+  </div>
+</section>
+
+<section class="about">
+  <div class="about-inner">
+    <!-- TEXT (left) -->
+    <div class="about-text">
+      <p class="eyebrow">A BIT ABOUT ME</p>
+      <p class="about-body">
+        I am a UI/UX designer who is passionate about creating
+        <strong>beautiful</strong> and <strong>joyful</strong> digital experiences.
+        Besides design, I love music, games and travelling.
+      </p>
+    </div>
+
+    <!-- GALLERY (right) -->
+    <div class="about-gallery">
+      <!-- Right column — top -->
+      <figure class="card card-tall">
+        <img src="Pictures/Change this.png" alt="Top right card">
+      </figure>
+
+      <!-- Left column — centered vertically -->
+      <figure class="card card-center">
+        <img src="Pictures/Change this (2).png" alt="Center left card">
+      </figure>
+
+      <!-- Right column — bottom -->
+      <figure class="card card-bottom">
+        <img src="Pictures/Change this (1).png" alt="Bottom right card">
+      </figure>
+    </div>
+  </div>
+</section>
+ 
+<!-- Footer -->
+<footer class="footer">
+  <h2>Get <span>in Touch.</span></h2>
+  <p>So that we can talk more about...</p>
+
+  <div class="socials">
+    <a href="https://www.instagram.com/aldinahmeti_1/" target="_blank" aria-label="Instagram">
+      <i class="fa-brands fa-instagram"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/aldin-ahmeti-692a911a3/" target="_blank" aria-label="LinkedIn">
+      <i class="fa-brands fa-linkedin-in"></i>
+    </a>
+    <a href="https://github.com/AldinAhmeti" target="_blank" aria-label="GitHub">
+      <i class="fa-brands fa-github"></i>
+    </a>
+  </div>
+</footer>
+
+<!-- Add Font Awesome link in your <head> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+
+</body>
+</html>
