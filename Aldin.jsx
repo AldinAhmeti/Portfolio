@@ -2,7 +2,7 @@ export default function ArrowDown() {
   return <div className="arrow"></div>;
 }
 import React from "react";
-import "./ArrowDown.css"; // we'll make this file next
+import "./ArrowDown.css";
 
 export default function ArrowDown({ onClick }) {
   return (
@@ -31,4 +31,5 @@ function ProjectCard() {
   <div className="project-overlay">
     <span>View Project</span>
   </div>
+
 </a>
